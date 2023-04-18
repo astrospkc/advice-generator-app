@@ -17,28 +17,40 @@ function App() {
     getAdvice(url);
   }, []);
 
+  function adviceChanged() {
+    getAdvice();
+  }
+
   return (
     <>
-      <div className="w-2/5  flex flex-col  items-center justify-center mx-auto my-auto ">
+      <div className="  md:w-2/5 md:h-screen flex  items-center justify-center  mx-3 md:mx-auto my-24 md:my-auto  ">
         <div
-          className="rounded-xl p-3"
+          className="flex flex-col items-center justify-center rounded-xl p-10 w- fit relative"
           style={{ backgroundColor: "hsl(217, 19%, 24%)" }}
         >
-          <h1 className="text-center">{advice.id}</h1>
-          <p className="text-center">{advice.advice}</p>
-          <img
-            src="./images/pattern-divider-desktop.svg"
-            alt=""
-            className="mx-auto mb-4"
-          />
-        </div>
-        <div className=" bg-red-500">
-          <img
-            src="./images/icon-dice.svg"
-            alt=""
-            style={{ backgroundColor: "hsl(150, 100%, 66%)" }}
-            className="mx-auto"
-          />
+          <div>
+            <h1
+              className="text-center mb-4"
+              style={{ color: "hsl(150, 100%, 66%)" }}
+            >
+              Advice #{advice.id}
+            </h1>
+            <p className="text-center text-white text-3xl md:text-2xl mb-7">
+              "{advice.advice}"
+            </p>
+            <img
+              src="./images/pattern-divider-desktop.svg"
+              alt=""
+              className="mx-auto mb-5 "
+            />
+          </div>
+
+          <div
+            className="hovered rounded-full p-4 absolute top-[90%] bg-green-500 hover:shadow-[0_35px_60px_-15px] hover:shadow-green-300 "
+            onClick={adviceChanged}
+          >
+            <img src="./images/icon-dice.svg" alt="" className="mx-auto " />
+          </div>
         </div>
       </div>
     </>
