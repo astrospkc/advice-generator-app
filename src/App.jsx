@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import divider from "../images/pattern-divider-desktop.svg";
+import dice from "../images/icon-dice.svg";
 
 function App() {
   const [advice, setAdvice] = useState("");
@@ -38,18 +40,18 @@ function App() {
             <p className="text-center text-white text-3xl md:text-2xl mb-7">
               "{advice.advice}"
             </p>
-            <img
-              src="./images/pattern-divider-desktop.svg"
-              alt=""
-              className="mx-auto mb-5 "
-            />
+            <img src={divider} alt="" className="mx-auto mb-5 " />
           </div>
 
           <div
             className="hovered rounded-full p-4 absolute top-[90%] bg-green-500 hover:shadow-[0_35px_60px_-15px] hover:shadow-green-300 "
             onClick={adviceChanged}
           >
-            <img src="./images/icon-dice.svg" alt="" className="mx-auto " />
+            <img
+              src={dice}
+              alt="click here for next advice"
+              className="mx-auto "
+            />
           </div>
         </div>
       </div>
