@@ -8,7 +8,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Image of Advice generator app](C:\Users\punam\OneDrive\Pictures\advice.png)
+![Image of Advice generator app](https://vercel.com/2f19ce0c-fcac-499f-a462-bb2234461a24)
 
 ### Links
 
