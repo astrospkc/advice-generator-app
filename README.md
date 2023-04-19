@@ -8,6 +8,7 @@ Users should be able to:
 
 ### Screenshot
 
+![advicegenerator image](http://url/to/advice.png)
 [./advice.png]()
 
 ### Links
