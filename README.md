@@ -8,7 +8,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./advice.png)
+![./advice.png]()
 
 ### Links
 
