@@ -8,13 +8,12 @@ Users should be able to:
 
 ### Screenshot
 
-![http://url/to/advice.png](http://url/to/advice.png)
-[./advice.png]()
+![http://url/to/advice.png](./advice.png)
 
 ### Links
 
-- Solution URL: [https://github.com/astrospkc/advice-generator-app/blob/main/src/App.jsx](https://your-solution-url.com)
-- Live Site URL: [https://advice-generator-app-six-snowy.vercel.app](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/astrospkc/advice-generator-app/blob/main/src/App.jsx)
+- Live Site URL: [Advice Generator App](https://advice-generator-app-six-snowy.vercel.app)
 
 ## My process
 
