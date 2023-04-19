@@ -8,7 +8,7 @@ Users should be able to:
 
 ### Screenshot
 
-![http://url/to/advice.png](./advice.png)
+![Image of Advice generator app](C:\Users\punam\OneDrive\Pictures\advice.png)
 
 ### Links
 
@@ -35,7 +35,7 @@ Use of inline style.
 
 ## Author
 
-- Website - [https://punam-portfolio.vercel.app/](https://www.your-site.com)
+- Website - [Punam Kumari](https://punam-portfolio.vercel.app)
 - Frontend Mentor - [@astropkc](https://www.frontendmentor.io/profile/astrospkc)
 - Twitter - [@punamku22075700](https://twitter.com/punamku22075700)
 
